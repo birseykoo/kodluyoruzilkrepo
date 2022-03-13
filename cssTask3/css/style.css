@@ -1,0 +1,159 @@
+html {
+  background-color: rgb(32, 33, 36);
+}
+
+/* img Kalvye*/
+.img-d {
+  flex: 1 0 auto;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  border: 0;
+  background: transparent;
+  outline: none;
+  padding: 0 8px;
+  width: 24px;
+  line-height: 44px;
+}
+   .center
+   {
+      margin-left:85%;
+      margin-right:auto;
+   }
+.d {
+  display: flex;
+  flex: 0 0 auto;
+  margin-top: -5px;
+  align-items: stretch;
+  flex-direction: row;
+}
+
+.g {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: #e8eaed;
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  -webkit-tap-highlight-color: transparent;
+  margin-top: -37px;
+  height: 34px;
+  font-size: 16px;
+}
+
+.img-s {
+  background: url("//www.gstatic.com/inputtools/images/tia.png") no-repeat
+    center;
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+}
+
+.img-ss {
+  visibility: hidden;
+}
+/* End img Kalvye*/
+
+/* Svg */
+.svg-d {
+  flex: 1 0 auto;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  border: 0;
+  background: transparent;
+  outline: none;
+  padding: 0 8px;
+  width: 24px;
+  line-height: 44px;
+}
+
+.svg-s {
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+}
+
+/* Button */
+.btn button[type="submit"] {
+  background-color: #303134;
+  border: 1px solid #303134;
+  border-radius: 4px;
+  color: #e8eaed;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* End Svg*/
+
+/* Button */
+
+/* Footer */
+.footer {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #303134;
+  border-top: 1px solid #303134;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-left: -8px;
+  line-height: 10px;
+  background-color: rgb(23, 23, 23);
+}
+
+.footer-p {
+  padding: 15px 30px;
+  border-bottom: 1px solid #212327;
+  font-size: 15px;
+  color: #9aa0a6;
+}
+
+.footer-d {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1200px) {
+  .footer-d {
+    justify-content: space-evenly;
+  }
+}
+
+.footer-dd {
+  justify-content: flex-start;
+  min-width: 30%;
+  order: 1;
+}
+
+.footer-a {
+  display: block;
+  padding: 15px;
+  white-space: nowrap;
+}
+
+a.footer-a {
+  color: white;
+}
+
+@media only screen and (max-width: 1200px) {
+  .ss {
+    order: 0;
+    width: 100%;
+    justify-content: center;
+  }
+}
+/* End Footer */
