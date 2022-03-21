@@ -1,0 +1,18 @@
+.avatar {
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  border: 100% solid #fff;
+}
+
+.avatar-box {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.post-dest {
+  height: 250px;
+  background-color: rgb(223, 215, 215);
+  text-align: center;
+  padding: 50px;
+}
