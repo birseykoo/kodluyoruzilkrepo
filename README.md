@@ -27,9 +27,8 @@ Pull requestler kabul edilir. Büyük değişiklikler için, lütfen önce neyi 
 
 ## Certificate
 
-![Sertifika](./sertifika.pdf "Sertifika")
+![Model Görünüm Denetleyicisi](sertifika.pdf)
 
-<embed src="/sertifika.pdf" type="application/pdf">
 
 ## License
 
