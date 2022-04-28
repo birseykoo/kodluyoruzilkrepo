@@ -29,7 +29,6 @@ Pull requestler kabul edilir. Büyük değişiklikler için, lütfen önce neyi 
 
 ![Model Görünüm Denetleyicisi](sertifika.pdf)
 
-
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
