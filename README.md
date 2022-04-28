@@ -16,7 +16,7 @@ Projeyi cloneladıktan sonra Visual Studio Code programında açınız.
 
 Linux için:
 
-```linux
+```bash
 cd kodluyoruzilkrepo
 code .
 ```
@@ -24,6 +24,12 @@ code .
 ## Contributing
 
 Pull requestler kabul edilir. Büyük değişiklikler için, lütfen önce neyi değiştirmek istediğinizi tartışmak için bir konu açınız.
+
+## Certificate
+
+![Sertifika](./sertifika.pdf "Sertifika")
+
+<embed src="/sertifika.pdf" type="application/pdf">
 
 ## License
 
