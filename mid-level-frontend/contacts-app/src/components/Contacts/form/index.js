@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 const initailFormValue = {
-    name: "",
+    fullName: "",
     phone: "",
 }
 function Form({addContact, contacts}) {
