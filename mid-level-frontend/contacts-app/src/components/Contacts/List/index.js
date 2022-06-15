@@ -12,11 +12,21 @@ function List({contacts}) {
   return (
     <div>
     <input type="text" placeholder="Kişiler" value={filteredContacts} onChange={(e)=> setFilteredContacts(e.target.value)}/>
-      <ul>
+      <ul className='list'>
         {filtered.map((contact,i) => (
-          <li key={i}>{contact.fullName}</li>
+          <li key={i}>
+            <span>
+              {contact.fullName}
+            </span>
+            <span>
+              {contact.phone}
+            </span>
+          </li>
         ))}
       </ul>
+      <p> 
+        {filtered.length} kişi bulundu.
+      </p>
     </div>
   )
 }
