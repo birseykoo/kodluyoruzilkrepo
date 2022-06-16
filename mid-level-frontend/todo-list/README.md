@@ -4,7 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Project image
 
-![asdasds](/public/chrome_cfGQ3jt614.gif)
+![asdasds](https://github.com/birseykoo/kodluyoruzilkrepo/blob/main/mid-level-frontend/todo-list/public/chrome_cfGQ3jt614.gif)
+
 
 ## Available Scripts
 
