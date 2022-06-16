@@ -77,31 +77,44 @@ function List(props) {
 
   return (
     <div>
-      <h1>Todo List</h1>
       <Container className="container">
+        <h1
+          style={{
+            textAlign: 'center',
+          }}
+        >
+          Todos
+        </h1>
         <div>
           <Row className="nav">
-            <Col>
+            <Col xs="6">
               <div className="todo-list-count">
                 <span>{getTodoCount()}</span>
               </div>
             </Col>
-            <Col>
-            <div className="addTodo">
-              <Form onSubmit={addTodo} />
-            </div>
+            <Col xs="3">
+              <div className="addTodo">
+                <Form onSubmit={addTodo} />
+              </div>
             </Col>
-            <Col>
-            <div className="d-grid gap-2">
-              <Button size="lg" variant="danger" className="clear-button" onClick={clearAll}>Clear All</Button>
-            </div>
+            <Col xs="3">
+              <div className="d-grid gap-2">
+                <Button
+                  size="lg"
+                  variant="danger"
+                  className="clear-button"
+                  onClick={clearAll}
+                >
+                  Clear All
+                </Button>
+              </div>
             </Col>
           </Row>
         </div>
         <div style={{ display: 'block' }}>
           <Row>
-            <Col>
-            <h4>Todos</h4>
+            <Col xs="6">
+              <h4>Todos</h4>
               <Todo
                 todos={todos}
                 completeTodo={completeTodo}
@@ -110,17 +123,17 @@ function List(props) {
               />
             </Col>
             <Col>
-            <h4>Completed Todos</h4>
-              <ul className="complete">
-                {getCompletedTodos().map((todo, index) => (
+              <h4>Uncompleted Todos</h4>
+              <ul className="incomplete">
+                {getUncompletedTodos().map((todo, index) => (
                   <li key={index}>{todo.text}</li>
                 ))}
               </ul>
             </Col>
             <Col>
-            <h4>Uncompleted Todos</h4>
-              <ul className="incomplete">
-                {getUncompletedTodos().map((todo, index) => (
+              <h4>Completed Todos</h4>
+              <ul className="complete">
+                {getCompletedTodos().map((todo, index) => (
                   <li key={index}>{todo.text}</li>
                 ))}
               </ul>

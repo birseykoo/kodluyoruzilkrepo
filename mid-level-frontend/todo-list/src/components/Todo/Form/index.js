@@ -28,14 +28,12 @@ function Form(props) {
       {props.edit ? (
         <div>
           <input
-            placeholder='Update your item'
+            ref={inputRef}
+            type='text'
             value={input}
             onChange={handleChange}
-            name='text'
-            ref={inputRef}
-            className='todo-input edit'
           />
-          <button onClick={handleSubmit} className='todo-button edit'>
+          <button onClick={handleSubmit} className='todo-button edit btn-primary'>
             Update
           </button>
         </div>
@@ -49,10 +47,9 @@ function Form(props) {
             className='todo-input'
             ref={inputRef}
           />
-          <button onClick={handleSubmit} className='todo-button'>
-            Add todo
+          <button onClick={handleSubmit} className='todo-button btn-primary'>
+            +
           </button>
-            
         </div>
       )}
     </form>
