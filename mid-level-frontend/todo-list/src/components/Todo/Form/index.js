@@ -2,9 +2,9 @@ import React, { useState, useEffect, useRef } from 'react';
 
 function Form(props) {
   const [input, setInput] = useState(props.edit ? props.edit.value : '');
-
+  
   const inputRef = useRef(null);
-
+  
   useEffect(() => {
     inputRef.current.focus();
   });
@@ -52,6 +52,7 @@ function Form(props) {
           <button onClick={handleSubmit} className='todo-button'>
             Add todo
           </button>
+            
         </div>
       )}
     </form>
