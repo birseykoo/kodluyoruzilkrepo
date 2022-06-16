@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Project image
+
+![asdasds](/public/chrome_cfGQ3jt614.gif)
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -68,3 +72,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## References
+
+* [Youtube: Brian briancodex](https://github.com/briancodex/react-todo-app-v1)
+* [Codepen: Paul](https://codepen.io/hqdrone/pen/vYGJXZN)
